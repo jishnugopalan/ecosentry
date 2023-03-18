@@ -1,5 +1,6 @@
 import 'package:ecosentry/Customer/CustomerSignUp.dart';
 import 'package:ecosentry/Customer/Payment.dart';
+import 'package:ecosentry/Customer/page/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:ecosentry/Customer/Complaint.dart';
 import 'package:ecosentry/Customer/Feedback.dart';
@@ -15,7 +16,7 @@ class MyApps extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PaymentDemo(),
+      home: HomePage(),
       );
   }
 }
